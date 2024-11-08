@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Glow</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    .navbar {
+      background-color: #0a6707;
+    }
+    .navbar-nav .nav-link {
+      color: rgb(21, 20, 20) !important;
+    }
+    .hero {
+      height: 90vh;
+      background: url('imgs/bigstock-Luxury-Restaurant-In-European-52461799-1.jpg') no-repeat center center;
+      background-size: cover;
+      position: relative;
+      color: rgb(239, 235, 235);
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .menu-item {
+      margin-bottom: 30px;
+    }
+    
+    #about {
+      background-color: rgb(203, 150, 43);
+    }
+    #contact {
+      background-color: rgb(94, 97, 97);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Lomiyarn Foodcourt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Welcome to Organic Glow</h1>
+      <p>Where you can achieve the Glow that you want naturally</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="container py-5">
+    <section id="menu" class="py-5">
+      <div class="container">
+          <h2 class="text-center">Our Best Sellers</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                  <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Organic Glowing Soap">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Organic Glowing Soap</h5>
+                      <p class="card-text">Soap</p>
+                      <p class="price"><strong>P100.00</strong></p>
+                      <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                  </div>
+              </div>
+          </div>
+              <div class="col-md-3">
+                  <div class="card ">
+                      <img src="imgs/aa82-hero.jpg" class="card-img-top img-fluid img-thumbnail border border-success" alt="Grilled Chicken">
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Organic Glowing Serum</h5>
+                          <p class="card-text">Serum</p>
+                          <p class="price"><strong>P180.00</strong></p>
+                          <button class="btn btn-success add-to-cart" data-price="15.00">Add to Cart</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                      <div class="card-body text-center">
+                          <h5 class="card-title">Organic Glowing Sunscreen</h5>
+                          <p class="card-text">Sunscreen</p>
+                          <p class="price"><strong>P200.00</strong></p>
+                          <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                    <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Organic Glowing Toner">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Organic Glowing Toner</h5>
+                        <p class="card-text">Toner</p>
+                        <p class="price"><strong>P85.00</strong></p>
+                        <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                  <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Bam-e</h5>
+                      <p class="card-text">pansit bisaya</p>
+                      <p class="price"><strong>80.00</strong></p>
+                      <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Bam-e</h5>
+                    <p class="card-text">pansit bisaya</p>
+                    <p class="price"><strong>80.00</strong></p>
+                    <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Bam-e</h5>
+                  <p class="card-text">pansit bisaya</p>
+                  <p class="price"><strong>80.00</strong></p>
+                  <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                  <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Bam-e</h5>
+                      <p class="card-text">pansit bisaya</p>
+                      <p class="price"><strong>80.00</strong></p>
+                      <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Bam-e</h5>
+                    <p class="card-text">pansit bisaya</p>
+                    <p class="price"><strong>80.00</strong></p>
+                    <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Bam-e</h5>
+                  <p class="card-text">pansit bisaya</p>
+                  <p class="price"><strong>80.00</strong></p>
+                  <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+            <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+            <div class="card-body text-center">
+                <h5 class="card-title">Bam-e</h5>
+                <p class="card-text">pansit bisaya</p>
+                <p class="price"><strong>80.00</strong></p>
+                <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="imgs/pansit_ bam-e.JPG" class="card-img-center img-thumbnail" alt="Chocolate Cake">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Bam-e</h5>
+                    <p class="card-text">pansit bisaya</p>
+                    <p class="price"><strong>80.00</strong></p>
+                    <button class="btn btn-success add-to-cart" data-price="8.00">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+          </div>
+      </div>
+  </section>
+
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4 menu-item">
+        <h3>Appetizers</h3>
+        <p>Delicious starters to begin your meal.</p>
+        <ul>
+          <li>Bruschetta - $8</li>
+          <li>Garlic Bread - $5</li>
+          <li>Caesar Salad - $10</li>
+        </ul>
+      </div>
+      <div class="col-md-4 menu-item">
+        <h3>Main Courses</h3>
+        <p>Enjoy our selection of main courses.</p>
+        <ul>
+          <li>Grilled Chicken - $15</li>
+          <li>Spaghetti Bolognese - $12</li>
+          <li>Steak - $22</li>
+        </ul>
+      </div>
+      <div class="col-md-4 menu-item">
+        <h3>Desserts</h3>
+        <p>Finish your meal with a sweet treat.</p>
+        <ul>
+          <li>Tiramisu - $6</li>
+          <li>Cheesecake - $7</li>
+          <li>Gelato - $5</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container bg-warning">
+      <h2 class="text-center mb-5">About Us</h2>
+      <p class="text-center">At Lomiyarn Foodcourt, we take pride in offering the finest dishes made from fresh, locally sourced ingredients. Our chefs have crafted a menu that blends traditional flavors with modern culinary techniques.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Location</h5>
+          <p>123 Food Street, City, Country</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Hours</h5>
+          <p>Monday - Friday: 11 AM - 10 PM</p>
+          <p>Saturday - Sunday: 9 AM - 11 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
